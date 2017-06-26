@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/11618221/27525962-a422528e-5a42-11e7-8d3c-e54265c669a2.png" alt="Semantic Text Annotator" title="Semantic Text Annotator" align="middle" height="200"/>
+<img src="https://user-images.githubusercontent.com/11618221/27525962-a422528e-5a42-11e7-8d3c-e54265c669a2.png" alt="Semantic Text Annotator" title="Semantic Text Annotator" align="middle" height="80"/>
 
 Voice Commander
 ======================
