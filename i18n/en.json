@@ -1,0 +1,32 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jonas Bakker",
+            "Tobias Weller"
+        ]
+
+    },
+    "voicecommander": "Voice Commander",
+    "vc-special-title": "Voice Commander",
+    "vc-desc": "Speech Recognition for MediaWiki.",
+    "vc-pref-mypref1": "Name: ",
+    "vc-pref-mypref2": "Always on",
+    "vc-pref-mypref3": "Choose a style",
+    "prefs-vc-title": "Voice Commander",
+    "prefs-vc-bar1": "Voice Commander Listening Option",
+    "prefs-vc-bar2": "Voice Commander Style",
+    "prefs-vc-bar3": "Voice Commander Name",
+    "vc-pref-mypref3-help": "Choose a style for the Voice Commander UI!",
+    "vc-pref-mypref1-help": "Check if you wish to have the Voice Commander listen always. You can give commands by saying its name first.",
+    "vc-special-intro": "Welcome to Voice Commander. On this page you can see whether or not your current browser supports this extension. Additionnally, if logged in, you can see your current customization settings.",
+    "vc-compatibility-title": "Compatibility",
+    "vc-preferences-title": "Preferences",
+    "vc-special-check-compatibility": "<p id='VC_loading' style='display:block;'><i>Checking your browser - please have Javascript active.</i></p><p id='VC_success' style='display:none; color: green;'>Congrats! Your browser supports Voice Commander!</p><p id='VC_failure' style='display:none; color: red;'>Unfortunately, your browser does not support Voice Commander.</p><br />",
+    "vc-special-user-change-name-1": "The name of your Voice Commander is ",
+    "vc-special-user-change-name-2": "Change it simply by telling her: ",
+    "vc-special-user-change-name-3": ", from here on out I'm going to call you <Name>!",
+    "vc-special-user-style": "Your current style is: ",
+    "vc-special-user-listening-mode": "Mode of Voice Commander: ",
+    "vc-special-user-not-always-listening": "Not always Listening",
+    "vc-special-user-always-listening": "Always Listening"
+}

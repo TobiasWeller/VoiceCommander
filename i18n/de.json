@@ -1,0 +1,32 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jonas Bakker",
+            "Tobias Weller"
+        ]
+
+    },
+    "voicecommander": "Voice Commander",
+    "vc-special-title": "Voice Commander",
+    "vc-desc": "Spracherkennung for MediaWiki",
+    "vc-pref-mypref1": "Name: ",
+    "vc-pref-mypref2": "Immer an",
+    "vc-pref-mypref3": "Wählen Sie einen Stlye",
+    "prefs-vc-title": "Voice Commander",
+    "prefs-vc-bar1": "Voice Commander Always Listening Option",
+    "prefs-vc-bar2": "Voice Commander Style",
+    "prefs-vc-bar3": "Voice Commander Name",
+    "vc-pref-mypref3-help": "Wählen Sie einen Style für die Voice Commander UI!",
+    "vc-pref-mypref1-help": "Wählen Sie das Feld aus, wenn Sie möchten, dass der Voice Commander immer zuhört. Sie können anschließend, ohne einen klick auf den Knopf mittels Ok., Kate <Command> Ihren Befehl nennen.",
+    "vc-special-intro": "Willkommen zum Voice Commander. Auf dieser Seite sehen Sie ob ihr aktueller Browser die Erweiterung unterstützt. Zusätzlich, wenn Sie eingeloggt sind, sehen Sie Ihre aktuellen Einstellungen.",
+    "vc-compatibility-title": "Kompatibilität",
+    "vc-preferences-title": "Eigenschaften",
+    "vc-special-check-compatibility": "<p id='VC_loading' style='display:block;'><i>Überprüfe Ihren Browser - Bitte aktivieren Sie Javascript.</i></p><p id='VC_success' style='display:none; color: green;'>Glückwunsch! Ihr Browser unterstützt den Voice Commander!</p><p id='VC_failure' style='display:none; color: red;'>Leider unterstützt ihr Browser nicht den Voice Commander.</p><br />",
+    "vc-special-user-change-name-1": "Der Name ihres Voice Commanders ist ",
+    "vc-special-user-change-name-2": "Ändern Sie diesen einfach durch den Befehl: ",
+    "vc-special-user-change-name-3": ", here on out I'm going to call you <Name>!",
+    "vc-special-user-style": "Ihr aktueller Style ist: ",
+    "vc-special-user-listening-mode": "Modus des Voice Commander: ",
+    "vc-special-user-not-always-listening": "Nicht Always Listening",
+    "vc-special-user-always-listening": "Always Listening"
+}

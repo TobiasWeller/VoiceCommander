@@ -1,0 +1,83 @@
+{
+	"name": "Voice Commander",
+	"version": "1.0",
+	"author": [
+		"Jonas Bakker",
+		"[http://www.aifb.kit.edu/web/Tobias_Weller Tobias Weller]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Voice_Commander",
+	"descriptionmsg": "vc-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"VoiceCommanderHooks": "VoiceCommander.hooks.php",
+		"VoiceCommanderSpecial": "specials/VoiceCommanderSpecial.php",
+		"VoiceCommander": "VoiceCommander.php"
+	},
+	"config": {
+		"BoilerPlateEnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+		"VoiceCommanderAlias": "VoiceCommander.i18n.alias.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"VoiceCommanderHooks::onBeforePageDisplay"
+		],
+		"GetPreferences": [
+			"VoiceCommanderHooks::getPreferences"
+		],
+		"EditPageShowEditFormInitial": [
+			"VoiceCommanderHooks::editPageShowEditFormInitial"
+		],
+		"MakeGlobalVariablesScript": [
+			"VoiceCommanderHooks::onMakeGlobalVariablesScript"
+		]
+	},
+	"MessagesDirs": {
+		"VoiceCommander": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.voicecommander.module": {
+			"scripts": [
+				"modules/lib/speechkitt.js",
+				"modules/lib/annyang.js",
+				"modules/ext.voicecommander.settings.js",
+				"modules/ext.voicecommander.module.js",
+				"modules/ext.voicecommander.functionality.js",
+				"modules/ext.voicecommander.module.api.js"
+			],
+			"styles": [
+			],
+			"messages": [
+
+			],
+			"dependencies": []
+		},
+		"ext.voicecommander.special": {
+			"scripts": [
+				"modules/lib/annyang.js",
+				"modules/ext.voicecommander.special.js"
+			],
+			"styles": [
+			],
+			"messages": [
+
+			],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "VoiceCommander"
+	},
+	"SpecialPages": {
+		"VoiceCommander": "VoiceCommanderSpecial"
+	},
+	"namespaces": [
+	],
+	"callback": "VoiceCommanderHooks::afterInit",
+	"manifest_version": 1
+}
