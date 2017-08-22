@@ -3,7 +3,7 @@
 Voice Commander
 ======================
 
-The repository contains the Semantic Text Annotator extension for Semantic MediaWiki. The extension provides a plugin for capturing Text Annotations of wiki articles.
+**Voice Commander** is an extension for MediaWiki that allows for voice commands in MediaWiki. Various commands can be spoken and executed by this extension. Thus it allows for jumping to pages, searching for pages or entering information into MediaWiki. The extension is based on the JavaScript library [annyang](https://www.talater.com/annyang/).
 
 
 ## Table of content
@@ -96,7 +96,7 @@ The Voice Commander is currently under the MIT License.
 
 
 ## Acknowledgements
-The Voice commander uses the JS Library [annyang](https://github.com/TalAter/annyang). This Extension was created for the [Semantic MediaWiki Seminar of the AIFB](http://www.aifb.kit.edu/web/Prüfung/Seminare/WS2015/SMW) in WS17/18 by Jonas Bakker.
+The Voice commander uses the JS Library [annyang](https://github.com/TalAter/annyang). This Extension was created for the [Semantic MediaWiki Seminar of the AIFB](http://www.aifb.kit.edu/web/Prüfung/Seminare/WS2015/SMW) in WS16/17 by Jonas Bakker.
 
 
 ## Links
