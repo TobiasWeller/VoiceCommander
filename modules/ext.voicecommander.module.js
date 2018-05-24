@@ -30,11 +30,9 @@
                 }
             });
             annyang.addCallback('resultMatch', function(userSaid, commandText, phrases) {
-                sendStatisticRequest(userSaid, 1, annyang.getConfidence());
                 SpeechKITT.setInstructionsText(userSaid);
             });
             annyang.addCallback('resultNoMatch', function(phrases) {
-                sendStatisticRequest(phrases[0], 0, annyang.getConfidence());
                 SpeechKITT.setInstructionsText("I don't understand: " + phrases[0]);
                 //   SpeechKITT.setSampleCommands(phrases[0]);
                 $('#skitt-toggle-button').addClass('wrong'); //shaking of the microphone to signal false command
@@ -63,11 +61,9 @@
             });
 
             annyang.addCallback('resultMatch', function(userSaid, commandText, phrases) {
-                sendStatisticRequest(userSaid, 1, annyang.getConfidence());
                 SpeechKITT.setInstructionsText(userSaid);
             });
             annyang.addCallback('resultNoMatch', function(phrases) {
-                sendStatisticRequest(phrases[0], 0, annyang.getConfidence());
                 SpeechKITT.setInstructionsText("I don't understand: " + phrases[0]);
                 //   SpeechKITT.setSampleCommands(phrases[0]);
                 $('#skitt-toggle-button').addClass('wrong'); //shaking of the microphone to signal false command
