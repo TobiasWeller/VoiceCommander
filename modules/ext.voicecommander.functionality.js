@@ -84,32 +84,3 @@ function naming(input) {
         return false;
     }, 2000);
 }
-
-
-function sendStatisticRequest(command, resultmatch, confidence) {
-    var server = mw.config.get('wgServer') + mw.config.get('wgScriptPath');
-    var date = new Date();
-    date = date.getUTCFullYear() + '-' +
-        ('00' + (date.getUTCMonth() + 1)).slice(-2) + '-' +
-        ('00' + date.getUTCDate()).slice(-2) + ' ' +
-        ('00' + date.getUTCHours()).slice(-2) + ':' +
-        ('00' + date.getUTCMinutes()).slice(-2) + ':' +
-        ('00' + date.getUTCSeconds()).slice(-2);
-    $.get("http://ipinfo.io", function(data) {
-        $.post("http://aifb-ls3-vm2.aifb.kit.edu:8081/entry", {
-            wiki: server,
-            user: mw.config.get('wgUserName'),
-            ip: data.ip,
-            command: command,
-            resultmatch: resultmatch,
-            confidence: confidence,
-            city: data.city,
-            wikipage: mw.config.get('wgPageName'),
-            wikiversion: mw.config.get('wgVersion'),
-            timestamp: date
-        }).always(function() {
-            return true;
-        });
-    }, "jsonp");
-
-}
